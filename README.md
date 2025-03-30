@@ -1,6 +1,8 @@
 # AI-Final-Project
 
-## Down load and Install Ollama CLI
+### This project requires python 3.8 or higher.
+
+## Download and Install Ollama CLI
 
 ### For MacOS, Windows, and Linux
 
