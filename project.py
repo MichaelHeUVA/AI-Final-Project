@@ -8,10 +8,16 @@ ollama.pull("llama3.1")
 
 model = "llama3.1"
 
-idea = """Officers spend up to a third of their shifts manually transcribing body camera footage, creating inaccuracies, reducing transparency, and cutting into frontline duties. We're here to eliminate these inefficiencies by integrating with body cameras, record management systems, and digital evidence management systems—acting as a software layer for data processing. So, we created a AI Powered narrative for report making on body cams that automatically creates detailed summaries, incident reports, and briefings that meet all departmental standards and requirements. We securely sync with your Digital Evidence Management System (DEMS)—no downloads or dragging files around. Our system parses footage, understands context, redacts sensitive visuals, and generates your report automatically. We send you a polished PDF and plug the digital copy into your Records Management System—so everything's where it should be."""
+idea = """Officers spend up to a third of their shifts manually transcribing body camera footage, creating inaccuracies, reducing 
+transparency, and cutting into frontline duties. We're here to eliminate these inefficiencies by integrating with body cameras, 
+record management systems, and digital evidence management systems—acting as a software layer for data processing. So, we created 
+a AI Powered narrative for report making on body cams that automatically creates detailed summaries, incident reports, and briefings
+that meet all departmental standards and requirements. We securely sync with your Digital Evidence Management System (DEMS)—no 
+downloads or dragging files around. Our system parses footage, understands context, redacts sensitive visuals, and generates your 
+report automatically. We send you a polished PDF and plug the digital copy into your Records Management System—so everything's 
+where it should be."""
 
-instructions = """
-You are going to respond to the user's idea in english with your opinion on the idea and tell me if it's a good or bad idea.
+instructions = """You are going to respond to the user's idea in english with your opinion on the idea and tell me if it's a good or bad idea.
 You must give me an answer that is one sided you cannot be on the fence."""
 
 personas = [
