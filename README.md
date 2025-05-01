@@ -13,3 +13,5 @@ Go to [ollama](https://ollama.com/download) to download the Ollama CLI for your 
 ```
 pip install ollama
 ```
+
+### Please run the project.py file for the final submission for the final project code
